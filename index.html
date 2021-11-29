@@ -27,13 +27,15 @@
 
   <body>
     <!--header-->
-    <header>
+    <header class="header">
+      <div class="container"></div>
       <div class="container header__container">
         <nav class="header__nav link">
           <a href="./index.html" class="header__logo link">
             <span class="logo__color">Web</span>Studio</a
           >
-          <ul class="list header__nav__list">
+          <div class="header-mobile-open">
+            <ul class="list header__nav__list">
             <li class="header__nav__item">
               <a href="./index.html" class="header__nav__link link current"
                 >Студия</a
@@ -48,8 +50,27 @@
               <a href="" class="header__nav__link link">Контакты</a>
             </li>
           </ul>
+          </div>
+          
         </nav>
-
+        <!-- mobile-menu -->
+        <button class="burger-btn" data-menu-open><svg class="icon-burger"><use href="./images/sprite.svg#icon-burger"></use></svg></button>
+            <div class="mobile-menu" data-menu>
+              <button class="btn-close" data-menu-close>
+                <svg class="icon-close">
+              <use href="./images/sprite.svg#icon-btn-close"></use>
+            </svg></button>
+            
+              <ul class="mobile-menu-social">
+              <li class="social-list"> <a href="#">Instagram</a></li>
+              <li class="social-list"><a href="#">Twitter</a></li>
+              <li class="social-list"><a href="#">Facebook</a></li>
+              <li class="social-list"><a href="#">LinkedIn</a></li>
+            </ul>
+            </div>
+            
+<!-- end-mobili-menu -->
+ 
         <ul class="contact list header__connect__list">
           <li class="header__connect__item">
             <a
@@ -90,7 +111,7 @@
       </section>
 
       <!--advantage-->
-      <section class="section-advantage section">
+      <!-- <section class="section-advantage section">
         <div class="container advantage-container">
           <h2 class="one-ring">Преимущества</h2>
           <ul class="section-advantage-title list">
@@ -152,9 +173,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--work-->
-      <section class="work section">
+      <!-- <section class="work section">
         <div class="container work-container">
           <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="work-list list">
@@ -191,9 +212,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--team-->
-      <section class="section-team section">
+      <!-- <section class="section-team section">
         <div class="container container-team">
           <h2 class="our-team">Наша команда</h2>
 
@@ -340,9 +361,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--clients-->
-      <section class="clients section">
+      <!-- <section class="clients section">
         <div class="container">
           <h2 class="title-clients">Постоянные клиенты</h2>
           <ul class="client-list list">
@@ -390,10 +411,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
     <!--footer-->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container class-footer">
         <div class="contacts-address">
           <address>
@@ -472,10 +493,10 @@
             </button>
           </form>
         </div>
-      </div>
+      </div> -->
     </footer>
     <!-- backdrop -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn" data-modal-close>
           <svg class="modal-close-icon" width="18px" height="18px">
@@ -537,6 +558,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
   </body>
 </html>
