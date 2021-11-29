@@ -1,33 +1,99 @@
-// .section-advantage {
-//   padding-bottom: 0px;
-// }
-// .section-advantage-title {
-//   display: flex;
-//   justify-content: space-between;
-// }
-// .advantage-icons {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   width: 270px;
-//   height: 120px;
-//   background-color: #f5f4fa;
-//   border-radius: 4px;
-//   margin-bottom: 30px;
-// }
+.advantage-container {
+  background-color: rgb(92, 164, 240);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  flex-direction: column;
+}
 
-// .advantage-title {
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 1.14;
-//   color: var(--primary-title-color);
-//   margin-bottom: 10px;
-//   width: 270px;
-//   text-transform: uppercase;
-//   margin-top: 30px;
+.advantage-icon {
+  width: 70px;
+  height: 70px;
+}
+.advantage-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 450px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.advantage-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: var(--primary-title-color);
+}
+.advantage-text {
+  color: #757575;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+// @media screen and (min-width: 768px) {
+//   width: 768px;
 // }
-// .advantage-text {
-//   font-size: 14px;
-//   line-height: 1.71;
-//   width: 270px;
+// @media screen and (min-width: 1200px) {
+//   width: 1200px;
 // }
+//   @media screen and (min-width: 768px) {
+//     // padding-top: 26px;
+//     // padding-bottom: 25px;
+//   }
+//   @media screen and (min-width: 1200px) {
+//     // padding-top: 24px;
+//     // padding-bottom: 25px;
+//   }
+//   // .advantage-title {
+//   //   font-weight: 700;
+//   //   font-size: 14px;
+//   //   line-height: 1.14;
+//   //   color: var(--primary-title-color);
+//   //   text-align: center;
+//   //   margin-bottom: 10px;
+//   //   width: 270px;
+//   //   text-transform: uppercase;
+//   //   margin-top: 30px;
+//   // }
+// }
+// // position: absolute;
+// // width: 270px;
+// // height: 16px;
+// // left: 105px;
+// // top: 670px;
+
+// // font-family: Roboto;
+// // font-style: normal;
+// // font-weight: bold;
+// // font-size: 14px;
+// // line-height: 16px;
+// // text-align: center;
+// // letter-spacing: 0.03em;
+// // text-transform: uppercase;
+// // .advantage-text {
+// //   font-size: 14px;
+// //   line-height: 1.71;
+// //   width: 270px;
+// // }
+
+// // .section-advantage {
+// //   padding-bottom: 0px;
+// // }
+// // .section-advantage-title {
+// //   display: flex;
+// //   justify-content: space-between;
+// // }
+// // .advantage-icons {
+// //   display: flex;
+// //   align-items: center;
+// //   justify-content: center;
+// //   width: 270px;
+// //   height: 120px;
+// //   background-color: #f5f4fa;
+// //   border-radius: 4px;
+// //   margin-bottom: 30px;
+// //
