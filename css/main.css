@@ -491,6 +491,18 @@ ul {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .work .work-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .work .work-container {
+    display: none;
+  }
+}
+
 .work-container {
   padding-bottom: 0;
 }
@@ -531,93 +543,25 @@ ul {
 }
 
 .section-team {
-  background-color: var(--background-color-light);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  flex-direction: column;
+  background-color: #f0f183;
 }
 
-.team-title {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+@media screen and (min-width: 480px) {
+  .section-team {
+    width: 100vw;
+  }
 }
 
 .our-team {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1 16;
   text-align: center;
   color: var(--primary-title-color);
-  margin-bottom: 50px;
-}
-
-.team-item {
-  background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.team-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.team-list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18x;
-  text-align: center;
-  color: var(--primary-title-color);
-  margin-bottom: 10px;
-  margin-top: 30px;
-}
-
-.job-list {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-.social-list {
-  display: flex;
-  justify-content: center;
-}
-
-.team-social {
   margin-bottom: 30px;
-}
-
-.social-item {
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-}
-
-.social-item:last-child {
-  margin-right: 0;
-}
-
-.social-link {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-link:hover, .social-link:focus {
-  background-color: #2196f3;
-}
-
-.social-icon {
-  fill: #afb1b8;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  background-color: #2196f3;
-  fill: #ffffff;
 }
 
 .class-footer {
